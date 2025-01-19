@@ -30,6 +30,10 @@ Grande Desktop: 1200px a 1800px
         float: right;
         width: 70%;
     }
+
+    div#formulario>p {
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -49,6 +53,8 @@ Grande Desktop: 1200px a 1800px
         width: 60%;
     }
 
+
+
 }
 
 @media screen and (min-width: 992px) {
@@ -62,14 +68,18 @@ Grande Desktop: 1200px a 1800px
     }
 
     section#login>div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login>div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    div#formulario>p {
+        font-size: 1.2em;
     }
 
 }
